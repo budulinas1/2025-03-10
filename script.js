@@ -1,3 +1,1298 @@
+/*
+let number = 5;
+console.log(number);
+console.log(++number)
+console.log(++number)
+
+let number1 = 4;
+console.log(--number1);
+console.log(--number1);
+console.log(--number1);
+
+let string = "5";
+string = 5;
+
+console.log(string);
+console.log(typeof string);
+
+let number2 = 10;
+let number3 = 20-number2;
+console.log(number3) 
+
+////
+
+
+let weight = prompt("What is your weight?");
+let height = prompt("what is your height?");
+
+let weight1 = prompt("What is second person's weight?");
+let height1 = prompt("what is second person's height?");
+
+BMI = (weight) / (height * height);
+BMI1 = (weight1) / (height1 * height1);
+console.log("Is your bmi smaller" + BMI <= BMI1);
+
+
+let money = 15;
+let price = 15;
+
+if (money >= price) {
+    console.log("You have enough money")
+} else {
+    console.log("You do not have enough money")
+}
+
+let statusas = "student"
+let pinigai = 100
+let lusna = true;
+
+if (statusas === "student" && lusna === true && pinigai >= 100){
+    console.log("turtingas studentas") 
+ } else if  (statusas === "student" && lusna === true && pinigai < 100) {
+    console.log("ne turtingas studentas")
+} else if (statusas === "student" && lusna === false && pinigai >= 100) {
+    console.log("turtingas benamis studentas")
+} else if (statusas === "student" && lusna === false && pinigai < 100 ) {
+    console.log("ne turtingas benamis studentas")
+}
+
+*/
+/*
+isRich = false;
+isRich ? console.log("turtingas") : console.log("ubagas")
+*/
+/*
+vidurkis = 6
+lankomumas = true;
+
+if (lankomumas = true && vidurkis >= 8){
+    console.log("tavo vidurkis yra" , vidurkis , "ir lankomumas" , lankomumas , "stipendija tau priklauso")
+} else if (lankomumas = true && vidurkis < 8){
+    console.log("tavo vidurkis yra" , vidurkis , "ir lankomumas" , lankomumas , "stipendija tau nepriklauso")
+}  else if (lankomumas = false && vidurkis >= 8){
+    console.log("tavo vidurkis yra" , vidurkis , "ir lankomumas" , lankomumas , "stipendija tau nepriklauso")
+} else if (lankomumas = false && vidurkis < 8)
+    console.log("tavo vidurkis yra" , vidurkis , "ir lankomumas" , lankomumas , "stipendija tau nepriklauso")
+*/
+/*
+let X = prompt("X");
+Y  = prompt("Y");
+Z  = prompt("Z");
+
+let largest = Math.max(Math.max(X, Y),Z)
+console.log("the largest number of them all is:" , largest)
+
+*/
+//switch case
+
+/*
+let skaicius = 7
+switch(skaicius){
+    case 1: 
+    console.log("pirmadienis")
+    break;
+    case 2:
+    console.log("antradienis")
+    break;
+    case 3: 
+    console.log("treciadienis")
+    break;
+    case 4:
+    console.log("ketvirtadienis")
+    break;
+    case 5:
+    console.log("penktadienis")
+    break;
+    case 6:
+    console.log("sestadienis")
+    break;
+    case 7: 
+    console.log("sekmadienis")
+    break;
+    default: console.log("neteisingai nurodytas skaicius")
+}
+
+
+let menesis = 1
+switch(menesis){
+case 1:
+    console.log("January")
+break;
+case 2:
+    console.log("February")
+
+
+
+
+
+}
+
+*/
+
+/*
+function myFunction() {
+    console.log("hello world")
+    return;
+}
+
+myFunction();
+*/
+
+/*
+function myFunction(parameter1) {
+    console.log("hello", parameter1)
+    return;
+}
+
+let vardas = myFunction("nedas")
+
+vardas = myFunction("aktorius")
+*/
+
+/*
+let vardas = "nedas"
+let amzius = 18
+
+
+const square = function () {
+   amzius++
+   console.log(vardas, amzius)
+   
+   //return amzius;
+  };
+
+square()
+
+square()
+*/
+/*
+a = 8
+b = 2
+c = 3
+
+
+
+function myfunction(a, b, c){
+  console.log("skaiciai:", a, b ,c)
+  let math = Math.min(a, b, c)
+  console.log("maziausias:", math)
+
+
+
+  return;
+
+
+}
+myfunction(a, b, c)
+
+
+*/
+/*
+function average(a, b, c, d) {
+
+let sum = a + b + c + d;
+let average = sum / 4;
+console.log("vidurkis:", average); return average
+
+
+}
+
+let result = average(10, 10, 9, 1)
+
+
+function stipendija(average){
+   
+    if (average >= 5) {
+   
+        console.log("stipendija bus")
+      }
+    
+    else {
+    console.log("stipendijos ne bus")
+    
+    }
+}
+
+stipendija(result)
+*/
+/*
+let name = "jonas";
+
+function vardas() {
+  console.log(name);
+  return name;
+}
+
+let login = 1;
+let getname = vardas()
+
+vardas();
+
+function greeting(name) {
+  console.log("Greetings, " + name, "prisijungta kartu:", login);
+  login++;
+}
+
+greeting(vardas());
+greeting(getname);
+*/
+/*
+function metinisAtlyginimas(vardas, menesioAtlyginimas) {
+    return menesioAtlyginimas * 12;
+}
+
+
+const vardas = "Jonas";
+const menesioAtlyginimas = 800;
+
+const metinis = metinisAtlyginimas(vardas, menesioAtlyginimas);
+console.log(`${vardas}, jūsų metinis atlyginimas yra: ${metinis} eurų.`);
+*/
+/*
+function metai(year) {
+    if (year % 2 === 0) {
+        console.log(`${year} yra lyginiai metai.`);
+    } else {
+        console.log(`${year} nera lyginiai metai.`);
+    }
+}
+
+metai(2024)
+
+*/
+
+/*
+function kelionesKaina(nuvaziuotiKilometrai, degaluKaina, kuroVartojimas = 8) {
+
+    const litraiReikalingi = (nuvaziuotiKilometrai / 100) * kuroVartojimas;
+  
+    const kaina = litraiReikalingi * degaluKaina;
+    
+    return kaina;
+}
+
+
+const nuvaziuotiKilometrai = 150; 
+const degaluKaina = 1.5; 
+const kaina = kelionesKaina(nuvaziuotiKilometrai, degaluKaina);
+console.log(`Kelionės kaina: ${kaina.toFixed(2)} EUR`);
+
+
+*/
+//
+
+/* 1.
+
+function calculator (a, b) {
+    
+    a = Number(a);
+    b = Number(b);
+    output = console.log(a + b);
+    alert(a + b);
+    
+    }
+
+ let a = prompt();
+let b = prompt();
+
+calculator(a, b)
+
+
+*/
+/* 2.
+
+function square(number) {
+    return number ** 2;
+  }
+  
+  console.log(square(2));
+ 
+*/ //
+
+/* 5.
+function isEven(n) {
+   let result = n % 2 === 0 ? console.log("even") : console.log("odd");
+    return result;
+
+}
+
+isEven(5)
+*/
+/* 4.
+
+let a = prompt("pirmas")
+
+let b = prompt("antras")
+
+let rezultatas = a.concat(" ", b);
+
+console.log(rezultatas)
+
+*/
+
+/* 3.
+let num = prompt("number");
+
+if (num > 0) {
+    console.log(`${num} positive`);
+} else {
+    console.log(`${num} negative`);
+}
+    */
+/*
+
+var x = 13
+function 
+
+*/
+
+//concat
+
+/*
+const arr1 = ["hello"];
+const arr2 = ["bye"];
+const arrconcat = arr1.concat(arr2);
+console.log(arrconcat)
+*/
+
+//every
+
+/*
+const n = [11, 20];
+
+function age(n) {
+    if (n > 18) {
+        console.log("yes");
+        } else {
+        console.log("no");
+        }
+}
+
+n.every(age);
+*/
+
+//fill
+
+/*
+const arr1 = ["uno", "dos"];
+arr1.fill("tres", 1);
+console.log(arr1)
+*/
+
+//filter
+
+/* 1
+
+function uno(dos, tres) {
+   
+    dos.unshift(tres);
+    
+    return dos;
+  }
+  
+
+  let dos = [ 2, 3, 4, 5];
+  let tres = 1;
+  
+  console.log(uno(dos, tres))
+
+*/
+
+/*
+function sum(a) {
+   
+    a.unshift(a);
+    
+    return a;
+  }
+  
+
+  let a = ["hello", "bye"];
+  
+  console.log(sum(a))
+
+*/
+/*
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyeColor: "blue"
+  };
+
+  const keys = Object.keys(person);
+
+console.log(keys)
+
+*/
+
+/* 1
+let a = {
+
+automobilis: "taip",
+marke: "toyota"
+
+}
+
+a.spalva = "raudona"
+
+console.log(a)
+*/
+
+/*2
+let automobilis = {
+    marke: 'Toyota',
+    modelis: 'Corolla',
+    metai: 9080,
+    spalva: 'raudona'
+};
+
+
+let modelis = automobilis.modelis;
+delete automobilis.modelis;
+console.log(automobilis);
+*/
+/*3
+const uno = {
+ hello: 'yes'
+}
+console.log(Object.hasOwn(uno, 'hello'));
+*/
+/*
+
+let a = {
+    uno: 1,
+    dos: 2,
+    tres: 3,
+    cuatro: 4
+}
+
+let total = 0;
+
+for (let value in a) {
+  total += a[value];
+}
+
+console.log(total)
+
+*/
+
+/*
+for(let skaicius=0; skaicius<=10; skaicius++){
+    console.log(skaicius)
+}
+
+
+console.log("////////////////////////")
+
+
+for(let skaicius=10; skaicius > 0; skaicius--){
+    console.log(skaicius)
+}
+*/
+
+/* print every second number
+for(let skaicius = 0; skaicius <= 10; skaicius += 2) {
+    console.log(skaicius);
+}
+*/
+
+/*
+let obj = {
+    name: "Jonas",
+    age: 19,
+    occupying: "nothing",
+    
+};
+
+for(let key in obj){
+    console.log(key)
+}
+
+console.log(Object.values(obj))
+
+const arr=["jonas","petras", "antanas"];
+for(let val of arr){
+    console.log(val)
+}
+
+
+for (let key in arr){
+    console.log(key)
+}
+    */
+
+/*
+let skaicius=0
+while(skaicius <= 12){
+console.log(skaicius)
+skaicius++
+}
+
+*/
+
+/*
+var skaicius = 0;
+
+while(skaicius < 10){
+    skaicius = skaicius + 1;
+    console.log(skaicius);
+}
+
+*/
+/*
+var skaicius = 11;
+
+while(skaicius > 0){
+    skaicius = skaicius - 1;
+    console.log(skaicius);
+}
+    */
+
+/*
+let skc = 10
+while (skc >= 1) {
+    console.log(skc)
+    skc--
+}
+console.log("------------------------")
+let skaicius = 1
+while (skaicius <= 10) {
+    if (skaicius % 2 !== 0) console.log(skaicius)
+        skaicius++
+}
+*/
+/*
+
+
+let numb = 1
+do {
+    console.log(numb)
+numb++
+} while(numb < 2)
+
+*/
+
+/*
+function calculateAverage() {
+    let sum = 0;
+    let count = 0;
+    let number;
+
+    do {
+        number = parseFloat(prompt("Enter a number (negative to stop):"));
+        if (number >= 0) {
+            sum += number;
+            count++;
+        }
+    } while (number >= 0);
+
+    console.log(count > 0 ? "Average: " + (sum / count) : "No valid numbers entered.");
+}
+
+// Execute the function
+calculateAverage();
+
+
+
+function getRandomIntInclusive(min, max){
+    const minCeiled = Math.ceil(min)
+    const maxFloored = Math.floor(max)
+    return Math.floor(Math.random()
+}console.log(--number1);
+console.log(--number1);
+
+let string = "5";
+string = 5;
+
+console.log(string);
+console.log(typeof string);
+
+let number2 = 10;
+let number3 = 20-number2;
+console.log(number3) 
+
+////
+
+
+let weight = prompt("What is your weight?");
+let height = prompt("what is your height?");
+
+let weight1 = prompt("What is second person's weight?");
+let height1 = prompt("what is second person's height?");
+
+BMI = (weight) / (height * height);
+BMI1 = (weight1) / (height1 * height1);
+console.log("Is your bmi smaller" + BMI <= BMI1);
+
+
+let money = 15;
+let price = 15;
+
+if (money >= price) {
+    console.log("You have enough money")
+} else {
+    console.log("You do not have enough money")
+}
+
+let statusas = "student"
+let pinigai = 100
+let lusna = true;
+
+if (statusas === "student" && lusna === true && pinigai >= 100){
+    console.log("turtingas studentas") 
+ } else if  (statusas === "student" && lusna === true && pinigai < 100) {
+    console.log("ne turtingas studentas")
+} else if (statusas === "student" && lusna === false && pinigai >= 100) {
+    console.log("turtingas benamis studentas")
+} else if (statusas === "student" && lusna === false && pinigai < 100 ) {
+    console.log("ne turtingas benamis studentas")
+}
+
+*/
+/*
+isRich = false;
+isRich ? console.log("turtingas") : console.log("ubagas")
+*/
+/*
+vidurkis = 6
+lankomumas = true;
+
+if (lankomumas = true && vidurkis >= 8){
+    console.log("tavo vidurkis yra" , vidurkis , "ir lankomumas" , lankomumas , "stipendija tau priklauso")
+} else if (lankomumas = true && vidurkis < 8){
+    console.log("tavo vidurkis yra" , vidurkis , "ir lankomumas" , lankomumas , "stipendija tau nepriklauso")
+}  else if (lankomumas = false && vidurkis >= 8){
+    console.log("tavo vidurkis yra" , vidurkis , "ir lankomumas" , lankomumas , "stipendija tau nepriklauso")
+} else if (lankomumas = false && vidurkis < 8)
+    console.log("tavo vidurkis yra" , vidurkis , "ir lankomumas" , lankomumas , "stipendija tau nepriklauso")
+*/
+/*
+let X = prompt("X");
+Y  = prompt("Y");
+Z  = prompt("Z");
+
+let largest = Math.max(Math.max(X, Y),Z)
+console.log("the largest number of them all is:" , largest)
+
+*/
+//switch case
+
+/*
+let skaicius = 7
+switch(skaicius){
+    case 1: 
+    console.log("pirmadienis")
+    break;
+    case 2:
+    console.log("antradienis")
+    break;
+    case 3: 
+    console.log("treciadienis")
+    break;
+    case 4:
+    console.log("ketvirtadienis")
+    break;
+    case 5:
+    console.log("penktadienis")
+    break;
+    case 6:
+    console.log("sestadienis")
+    break;
+    case 7: 
+    console.log("sekmadienis")
+    break;
+    default: console.log("neteisingai nurodytas skaicius")
+}
+
+
+let menesis = 1
+switch(menesis){
+case 1:
+    console.log("January")
+break;
+case 2:
+    console.log("February")
+
+
+
+
+
+}
+
+*/
+
+/*
+function myFunction() {
+    console.log("hello world")
+    return;
+}
+
+myFunction();
+*/
+
+/*
+function myFunction(parameter1) {
+    console.log("hello", parameter1)
+    return;
+}
+
+let vardas = myFunction("nedas")
+
+vardas = myFunction("aktorius")
+*/
+
+/*
+let vardas = "nedas"
+let amzius = 18
+
+
+const square = function () {
+   amzius++
+   console.log(vardas, amzius)
+   
+   //return amzius;
+  };
+
+square()
+
+square()
+*/
+/*
+a = 8
+b = 2
+c = 3
+
+
+
+function myfunction(a, b, c){
+  console.log("skaiciai:", a, b ,c)
+  let math = Math.min(a, b, c)
+  console.log("maziausias:", math)
+
+
+
+  return;
+
+
+}
+myfunction(a, b, c)
+
+
+*/
+/*
+function average(a, b, c, d) {
+
+let sum = a + b + c + d;
+let average = sum / 4;
+console.log("vidurkis:", average); return average
+
+
+}
+
+let result = average(10, 10, 9, 1)
+
+
+function stipendija(average){
+   
+    if (average >= 5) {
+   
+        console.log("stipendija bus")
+      }
+    
+    else {
+    console.log("stipendijos ne bus")
+    
+    }
+}
+
+stipendija(result)
+*/
+/*
+let name = "jonas";
+
+function vardas() {
+  console.log(name);
+  return name;
+}
+
+let login = 1;
+let getname = vardas()
+
+vardas();
+
+function greeting(name) {
+  console.log("Greetings, " + name, "prisijungta kartu:", login);
+  login++;
+}
+
+greeting(vardas());
+greeting(getname);
+*/
+/*
+function metinisAtlyginimas(vardas, menesioAtlyginimas) {
+    return menesioAtlyginimas * 12;
+}
+
+
+const vardas = "Jonas";
+const menesioAtlyginimas = 800;
+
+const metinis = metinisAtlyginimas(vardas, menesioAtlyginimas);
+console.log(`${vardas}, jūsų metinis atlyginimas yra: ${metinis} eurų.`);
+*/
+/*
+function metai(year) {
+    if (year % 2 === 0) {
+        console.log(`${year} yra lyginiai metai.`);
+    } else {
+        console.log(`${year} nera lyginiai metai.`);
+    }
+}
+
+metai(2024)
+
+*/
+
+/*
+function kelionesKaina(nuvaziuotiKilometrai, degaluKaina, kuroVartojimas = 8) {
+
+    const litraiReikalingi = (nuvaziuotiKilometrai / 100) * kuroVartojimas;
+  
+    const kaina = litraiReikalingi * degaluKaina;
+    
+    return kaina;
+}
+
+
+const nuvaziuotiKilometrai = 150; 
+const degaluKaina = 1.5; 
+const kaina = kelionesKaina(nuvaziuotiKilometrai, degaluKaina);
+console.log(`Kelionės kaina: ${kaina.toFixed(2)} EUR`);
+
+
+*/
+//
+
+/* 1.
+
+function calculator (a, b) {
+    
+    a = Number(a);
+    b = Number(b);
+    output = console.log(a + b);
+    alert(a + b);
+    
+    }
+
+ let a = prompt();
+let b = prompt();
+
+calculator(a, b)
+
+
+*/
+/* 2.
+
+function square(number) {
+    return number ** 2;
+  }
+  
+  console.log(square(2));
+ 
+*/ //
+
+/* 5.
+function isEven(n) {
+   let result = n % 2 === 0 ? console.log("even") : console.log("odd");
+    return result;
+
+}
+
+isEven(5)
+*/
+/* 4.
+
+let a = prompt("pirmas")
+
+let b = prompt("antras")
+
+let rezultatas = a.concat(" ", b);
+
+console.log(rezultatas)
+
+*/
+
+/* 3.
+let num = prompt("number");
+
+if (num > 0) {
+    console.log(`${num} positive`);
+} else {
+    console.log(`${num} negative`);
+}
+    */
+/*
+
+var x = 13
+function 
+
+*/
+
+//concat
+
+/*
+const arr1 = ["hello"];
+const arr2 = ["bye"];
+const arrconcat = arr1.concat(arr2);
+console.log(arrconcat)
+*/
+
+//every
+
+/*
+const n = [11, 20];
+
+function age(n) {
+    if (n > 18) {
+        console.log("yes");
+        } else {
+        console.log("no");
+        }
+}
+
+n.every(age);
+*/
+
+//fill
+
+/*
+const arr1 = ["uno", "dos"];
+arr1.fill("tres", 1);
+console.log(arr1)
+*/
+
+//filter
+
+/* 1
+
+function uno(dos, tres) {
+   
+    dos.unshift(tres);
+    
+    return dos;
+  }
+  
+
+  let dos = [ 2, 3, 4, 5];
+  let tres = 1;
+  
+  console.log(uno(dos, tres))
+
+*/
+
+/*
+function sum(a) {
+   
+    a.unshift(a);
+    
+    return a;
+  }
+  
+
+  let a = ["hello", "bye"];
+  
+  console.log(sum(a))
+
+*/
+/*
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    eyeColor: "blue"
+  };
+
+  const keys = Object.keys(person);
+
+console.log(keys)
+
+*/
+
+/* 1
+let a = {
+
+automobilis: "taip",
+marke: "toyota"
+
+}
+
+a.spalva = "raudona"
+
+console.log(a)
+*/
+
+/*2
+let automobilis = {
+    marke: 'Toyota',
+    modelis: 'Corolla',
+    metai: 9080,
+    spalva: 'raudona'
+};
+
+
+let modelis = automobilis.modelis;
+delete automobilis.modelis;
+console.log(automobilis);
+*/
+/*3
+const uno = {
+ hello: 'yes'
+}
+console.log(Object.hasOwn(uno, 'hello'));
+*/
+/*
+
+let a = {
+    uno: 1,
+    dos: 2,
+    tres: 3,
+    cuatro: 4
+}
+
+let total = 0;
+
+for (let value in a) {
+  total += a[value];
+}
+
+console.log(total)
+
+*/
+
+/*
+for(let skaicius=0; skaicius<=10; skaicius++){
+    console.log(skaicius)
+}
+
+
+console.log("////////////////////////")
+
+
+for(let skaicius=10; skaicius > 0; skaicius--){
+    console.log(skaicius)
+}
+*/
+
+/* print every second number
+for(let skaicius = 0; skaicius <= 10; skaicius += 2) {
+    console.log(skaicius);
+}
+*/
+
+/*
+let obj = {
+    name: "Jonas",
+    age: 19,
+    occupying: "nothing",
+    
+};
+
+for(let key in obj){
+    console.log(key)
+}
+
+console.log(Object.values(obj))
+
+const arr=["jonas","petras", "antanas"];
+for(let val of arr){
+    console.log(val)
+}
+
+
+for (let key in arr){
+    console.log(key)
+}
+    */
+
+/*
+let skaicius=0
+while(skaicius <= 12){
+console.log(skaicius)
+skaicius++
+}
+
+*/
+
+/*
+var skaicius = 0;
+
+while(skaicius < 10){
+    skaicius = skaicius + 1;
+    console.log(skaicius);
+}
+
+*/
+/*
+var skaicius = 11;
+
+while(skaicius > 0){
+    skaicius = skaicius - 1;
+    console.log(skaicius);
+}
+    */
+
+/*
+let skc = 10
+while (skc >= 1) {
+    console.log(skc)
+    skc--
+}
+console.log("------------------------")
+let skaicius = 1
+while (skaicius <= 10) {
+    if (skaicius % 2 !== 0) console.log(skaicius)
+        skaicius++
+}
+*/
+/*
+
+
+let numb = 1
+do {
+    console.log(numb)
+numb++
+} while(numb < 2)
+
+*/
+/*
+
+function calc() {
+    let sum = 0;
+    let count = 0;
+    let number;
+
+    do {
+        number = prompt("skaicius");
+        if (number >= 0) {
+            sum += number;
+            count++;
+        }
+    } while (number >= 0);
+
+    console.log((sum / count));
+}
+
+calc();
+*/
+
+/*
+function getRandomIntInclusive(min, max){
+    const minCeiled = Math.ceil(min)
+    const maxFloored = Math.floor(max)
+    return Math.floor(Math.random()
+}
+    */
+
+/* 1
+let obj = {
+    name: "jonas",
+    age: 18,
+    city: "kaunas"
+};
+
+for (let key in obj) {
+    console.log(key);
+}
+*/
+
+/* 2
+function lenght(words) {
+    return words.map(word => word.length);
+}
+
+let word1 = ["ne", "labas", "taip"];
+let lenght1 = lenght(word1);
+console.log(lenght1); 
+*/
+
+/*
+
+const Button = document.getElementById("Button")
+
+Button.addEventListener("click", () => {
+/*
+    if(Button.style.backgroundColor == "orange"){
+        Button.style.backgroundColor = "white";
+     } else Button.style.backgroundColor = "orange";
+*/
+/*
+
+Button.style.backgroundColor == "orange" ? Button.style.backgroundColor = "white" : Button.style.backgroundColor = "orange"
+
+    })
+*/
+/*
+let number = 5
+
+if (number = 1) {
+    console.log("the number is odd")
+  } else if (number = 2) {
+    console.log("the number is even")
+  }
+  else if (number = 3) {
+    console.log("the number is odd")
+  }
+  else if (number = 4) {
+    console.log("the number is even")
+  }
+  else if (number = 5) {
+    console.log("the number is odd")
+  }
+  else if (number = 6) {
+    console.log("the number is even")
+  }
+  else if (number = 7) {
+    console.log("the number is odd")
+  }
+  else if (number = 8) {
+    console.log("the number is even")
+  }
+  */
+
+
+
+
+
+/*
+
+
+  const input = document.getElementById("firstname");
+  const formButton = document.getElementById("formButton");
+  const unorderedList = document.getElementById("unorderedList");
+  
+  formButton.addEventListener("click", (event) => {
+      event.preventDefault();
+      let inputValue = input.value;
+  
+      if (inputValue.length > 1) {
+          const listItem = document.createElement("li");
+          listItem.innerText = inputValue;
+  
+          unorderedList.appendChild(listItem);
+          input.value = "";
+      }
+  });
+
+  */
+/*
+for (let i=0; i<5; i++){
+    console.log(i)
+    if(i===2){break}
+}
+    */
+
+/*
 const divElement = document.createElement('div');
 divElement.textContent = 'hello';
 document.body.appendChild(divElement);
@@ -32,7 +1327,140 @@ for (let i = 0; i < pTags.length; i++) {
     pTags[i].style.color = 'red';
     pTags[i].style.backgroundColor = 'black';
   } else {
-    pTags[i].style.backgroundColor = 'white';
-    pTags[i].style.color = 'green';
+    pTags[i].style.backgroundColor = 'green';
+    pTags[i].style.color = 'white';
   }
 }
+*/
+//2
+
+/*
+function initializePage() {
+    
+    const textContainer = document.createElement('div');
+    document.body.appendChild(textContainer);
+
+  
+    for (let i = 1; i <= 5; i++) {
+        const p = document.createElement('p');
+        p.id = `text${i}`;
+        p.className = 'text-element';
+        p.textContent = `Tekstas ${i}`;
+        textContainer.appendChild(p);
+    }
+
+   
+    const divContainer = document.createElement('div');
+    document.body.appendChild(divContainer);
+
+ 
+    for (let i = 0; i < 6; i++) {
+        const div = document.createElement('div');
+        div.className = 'my-div';
+        divContainer.appendChild(div);
+    }
+
+    document.getElementById('text1').style.color = 'red';
+    document.getElementById('text2').style.fontWeight = 'bold';
+    document.getElementById('text4').style.textDecoration = 'underline';
+    document.getElementById('text5').style.fontStyle = 'italic';
+
+
+    const elements = document.getElementsByClassName('text-element');
+    for (let i = 0; i < elements.length; i++) {
+        elements[i].style.border = '1px solid black';
+    }
+
+
+    const paragraphs = document.getElementsByTagName('p');
+    for (let i = 0; i < paragraphs.length; i++) {
+        paragraphs[i].style.backgroundColor = 'yellow';
+    }
+
+    const divs = document.getElementsByClassName('my-div');
+    for (let i = 0; i < divs.length; i++) {
+        divs[i].style.width = '100px';
+        divs[i].style.height = '100px';
+        divs[i].style.margin = '5px';
+        divs[i].style.backgroundColor = 'lightblue';
+    }
+}
+
+
+initializePage();
+*/
+/*
+
+const container = document.createElement('div');
+document.body.appendChild(container);
+
+
+const rowLabel = document.createElement('label');
+rowLabel.textContent = 'Eilutes:';
+container.appendChild(rowLabel);
+
+const rowInput = document.createElement('input');
+rowInput.type = 'number';
+rowInput.id = 'rows';
+container.appendChild(rowInput);
+
+
+const columnLabel = document.createElement('label');
+columnLabel.textContent = 'Stulpeliai:';
+container.appendChild(columnLabel);
+
+const columnInput = document.createElement('input');
+columnInput.type = 'number';
+columnInput.id = 'columns';
+container.appendChild(columnInput);
+
+
+const createButton = document.createElement('button');
+createButton.textContent = 'create';
+container.appendChild(createButton);
+
+
+const tableContainer = document.createElement('div');
+container.appendChild(tableContainer);
+
+
+createButton.addEventListener('click', function() {
+    const rows = parseInt(rowInput.value);
+    const columns = parseInt(columnInput.value);
+
+ 
+    tableContainer.innerHTML = '';
+
+   
+    const table = document.createElement('table');
+
+    for (let i = 0; i < rows; i++) {
+        const tr = document.createElement('tr');
+        for (let j = 0; j < columns; j++) {
+            const td = document.createElement('td');
+            td.textContent = `Eilutes:${i + 1} Stulpeliai:${j + 1}`; 
+            tr.appendChild(td);
+        }
+        table.appendChild(tr);
+    }
+
+    tableContainer.appendChild(table);
+});
+
+
+const style = document.createElement('style');
+style.textContent = `
+    table {
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    table, th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+`;
+document.head.appendChild(style);
+
+*/
+
